@@ -106,8 +106,34 @@
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
         gap: 23px;
-
-
     }
 
+    .content{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        height: 100vh; 
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .project-title{
+        font-size: 3em; 
+  font-weight: bold;
+  text-align: center; 
+  margin: 0 0 20px 0; 
+    }
+
+    .section__text__pp{
+        font-size: 1em;
+        color: #333; 
+        max-width: 600px; 
+        text-align: center; 
+        line-height: 1.6; 
+    }
+
+    .img-grande{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
