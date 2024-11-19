@@ -50,9 +50,6 @@
         margin-top: 0;
     }
 
-    .responsive-image {
-        content: url('img/Kids-Text-Effect-moved.jpg');
-    }
 }
 
 /* Media Query for devices with width <= 600px */
@@ -166,11 +163,5 @@
     .responsive-image {
         content: url('img/Kids-Text-Effect.jpg');
     }
-
-    /* Additional breakpoints for mobile */
-    @media screen and (max-width: 768px) {
-        .responsive-image {
-            content: url('mobile-image.jpg');
-        }
-    }
+    
 }
