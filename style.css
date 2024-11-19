@@ -41,7 +41,7 @@ nav{
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a{
@@ -51,19 +51,17 @@ a{
 }
 
 a:hover{
-    color: grey;
+    color: rgb(17, 0, 255);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: rgb(17, 0, 255);
 }
 
 .logo{
-    font-size: 2rem;
-    font-family: "Instrument Serif", serif;
+    font-size: 1rem;
+    font-family: "Instrument Sans" sans-serif;
     font-weight: 400;
-    font-style: italic;
 }
-
 .logo:hover{
     cursor: default;
 }
@@ -105,7 +103,7 @@ a:hover{
     overflow: hidden;
     transition: all 0.3 ease-in-out;
 }
-èu_
+
 .menu-links a{
     display: block;
     padding: 10px;
@@ -299,6 +297,29 @@ section {
 
 }
 
+.box{
+    padding:30px;
+    margin:2%;
+    background:white;
+    width:30%;
+    border:1px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:3px;
+    transition:.2s all; 
+  }
+  .box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+
 /*contact*/
 
 #contact{
@@ -312,15 +333,7 @@ section {
 .contact-info-upper-container{
     display: flex;
     justify-content: center;
-    border-radius: 2rem;
-    border:rgb(53, 53, 53);
-    border-color: rgb(163,163,163);
-    background: (250,250,250);
-    margin: 1rem auto;
-    padding: 0.5rem;
-    cursor: pointer;
-
-
+    align-items: center;
 }
 
 .contact-info-container{
@@ -344,7 +357,7 @@ section {
 
 /*footer*/
 
-footer{
+.footer{
     height: 26vh;
     margin: 0 1rem;
     margin-top: 2rem;
@@ -352,6 +365,8 @@ footer{
 
 footer p{
     text-align: center;
+    margin-bottom: 10px
+;
 }
 
 #tous-savoir{
@@ -369,7 +384,7 @@ footer p{
 .content{
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 
@@ -377,9 +392,9 @@ footer p{
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 60px;
-    line-height: -10px;
-    gap: 200PX;
+    font-size: 50px;
+    margin-right: 40px;
+    margin-bottom: 40px
 
 }
 
@@ -404,3 +419,21 @@ footer p{
 .responsive-image{
     width: 100%;
 }
+
+.hero {
+    height: 60vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-family: "Instrument Serif", serif;-family;
+    font-weight: 400;
+    
+}
+
+
