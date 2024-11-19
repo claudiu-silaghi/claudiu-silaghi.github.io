@@ -357,7 +357,6 @@ footer p{
 #tous-savoir{
  display: grid;
  max-width: 1200px;
-
 }
 
 .image2rows{
@@ -392,11 +391,16 @@ footer p{
 }
 
 .img-grande{
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
     max-width: 1200px;
-    margin: 0 auto;
+    height: auto;
+    margin-bottom: 20px;
+    grid-column: 1;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+}
+.responsive-image{
+    width: 100%;
 }

@@ -13,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="index-about.html">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="index.html">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -31,37 +31,40 @@
             <li><a href="index-about.html"onclick="toggleMenu()">About</a></li>
             <li><a href="index.html"onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
-            
         
+
         </div>
         
     </div>
     </nav>
-    
-    <section id="projects">
-        <p class="section__text__p3">Browse My Work</p>
-        <div class="image-grid">
-            <a href="tous-savoir.html">
-                <img src="img-tous-savoir/Thin_Book_Hard_Cover_Mockup_2.jpg"alt="Tous Savoirs"></a>
-            <a href="passage.html">
-                <img src="img/Kids-Text-Effect.jpg"alt="Tous Savoirs"></a>
-            <a href="hero.html">
-                <img src="img/fanzine-page/fanzine-cover.jpg"alt="Tous Savoirs"></a>
-            <img src="img/test 2.jpg"alt="Image 1">
-            <img src="img/test 2.jpg" alt="Image 1">
-            <img src="img/test 2.jpg" alt="Image 1">
-            <img src="img/test 2.jpg" alt="Image 1">
-            <img src="img/test 2.jpg" alt="Image 1">
-            <img src="img/test 2.jpg" alt="Image 1">
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="img/profile.png" alt="Silaghi Claudiu profile picture">
         </div>
-    
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm</p>
+            <h1 class="title">Claudiu Silaghi</h1>
+            <p class="section__text__p2">Graphic Designer</p>
+            <div class="btn-container">
+
+                <button class="btn btn-color-2"
+                onclick="window.open('img/profile.png')">Download CV   
+                </button>
+
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="img/2515843_black and white_dark grey_instagram_icon.png" alt="My Instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/clau_silaghi/'"/>
+
+                <img src="img/P5js_Logo.svg.png" alt="My P5JS Profile" class="icon" onclick="location.href='https://editor.p5js.org/silaghi/sketches'"/>
+
             </div>
         </div>
-        </div>
-
-    
-    
     </section>
+    
 
     <section id="contact">
         <h1 class="title">Contact Me</h1>
@@ -73,13 +76,21 @@
 
             <div class="contact-info-upper-container">
                 <div class="contact-info-container">
-                    <img src="img/2515843_black and white_dark grey_instagram_icon.png" href alt="instagram icon" class="icon contact-icon"/>
-                    <p><a href="https://www.instagram.com/clau_silaghi/"><a>clau_silaghi</a></p>
+                    <img src="img/2515843_black and white_dark grey_instagram_icon.png" alt="instagram icon" class="icon contact-icon"/>
+                    <p><a href="https://www.instagram.com/clau_silaghi/"></a>clau_silaghi</a></p>
                 </div>        
         </div>
     </section>
     <footer>
-       
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <p>Copyright &#169; 2024 Silaghi Claudiu. All Rights Reserved.</p>
     </footer>
 
